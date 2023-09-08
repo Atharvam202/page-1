@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Mukta&family=Noto+Sans&family=Roboto&family=Ubuntu&display=swap');
+.background{
+    background: url("home\ back.png"); 
+    min-height: 100vh;
+    min-width: 600px;
+    background-size: 1260px;
+    background-repeat: no-repeat;
+    background: cover;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 9px;
+}
+.sticker img
+{
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    left: 700px;
+    top: 115px;
+}
+.sticker img:hover
+{
+    scale: 1.1;
+    cursor: pointer;
+}
+.logo img
+{
+    height: 190px;
+    width: 300px;
+    position: absolute;
+}
+.nav
+{
+    display: flex;
+}
+.move h1
+{
+    display: flex;
+    margin-left: 40px;
+    color: white;
+}
+.move h2
+{
+    display: flex;
+    margin-left: 40px;
+    color: #FFDE59;
+    font-size: 18px;
+}
+.move 
+{
+    display: flex;
+    margin-left: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 330px;
+    top: 30px;
+    
+}
+.button
+{
+    background-color: #FFDE59;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    left: 890px;
+    top: 34px;
+    border:black;
+    box-sizing: 2px;
+    border-radius: 7px;
+
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+    cursor: pointer;
+}
+.button1:hover
+{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+    cursor: pointer;
+}
+.button2:hover
+{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+    cursor: pointer;
+}
+.button h1
+{
+    font-size: 18px;
+    align-self: center;
+    margin-left: 10px;
+    position: absolute;
+    top: -2px;
+
+}
+.button1
+{
+    left: 70px;
+    top: 328px;
+    background-color: #FFDE59;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    border:black;
+    box-sizing: 2px;
+    border-radius: 7px;
+
+}
+.button1 h1
+{
+    font-size: 18px;
+    align-self: center;
+    margin-left: 10px;
+    position: absolute;
+    top: -2px;
+
+}
+.button2
+{
+    left: 245px;
+    top: 328px;
+    background-color:white;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    border:black;
+    box-sizing: 2px;
+    border-radius: 7px;
+
+}
+.button2 h1
+{
+    font-size: 18px;
+    align-self: center;
+    margin-left: 18px;
+    position: absolute;
+    top: -2px;
+
+}
+.tringle1 img
+{
+    position: absolute;
+    left: 870px;
+    top: 0px;
+}
+.circle1 img{
+    height: 100px;
+    width: 99px;
+    position: absolute;
+    top: 178px;
+    left: 367px;
+    animation-name: circle1 ;
+    animation-duration: 20s;
+    animation-iteration-count: 1000;
+}
+.circle2 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 268px;
+    left: 306px;
+    animation-name: circle2 ;
+    animation-duration: 20s;
+    animation-iteration-count: 1000;
+}
+.circle3 img
+{
+    height: 60px;
+    width: 62px;
+    position: absolute;
+    top: 225px;
+    left: 317px;
+    animation-name: circle3 ;
+    animation-duration: 20s;
+    animation-iteration-count: 1000;
+
+}
+
+@keyframes circle1{
+    0% {
+        top: 178px;
+        left: 367px;
+    }
+    
+    25% {
+        top: 178px;
+        left: 967px;
+    }
+    50% {
+        top: 178px;
+        left: 367px;
+    }
+    75% {
+        top: 178px;
+        left: 10px;
+    }
+    100% {
+        top: 178px;
+        left: 367px;
+    }
+}
+@keyframes circle2{
+    0% {
+        top: 268px;
+        left: 306px;
+    }
+    
+    25% {
+        top: 490px;
+        left: 306px;
+    }
+    50% {
+        top: 268px;
+        left: 306px;
+    }
+    75% {
+        top: 5px;
+        left: 306px;
+    }
+    100% {
+        top: 268px;
+        left: 306px;
+    }
+}
+@keyframes circle3{
+    0% {
+        top: 225px;
+        left: 317px;
+    }
+    
+    25% {
+        top: 43px;
+        left: 35px;
+    }
+    50% {
+        top: 225px;
+        left: 317px;
+    }
+    75% {
+        top: 366px;
+        left: 659px;
+    }
+    100% {
+        top: 225px;
+        left: 317px;
+    }
+}
+.header
+{
+    width: 429px;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    left: 70px;
+    top: 95px;
+}
+.header h1
+{
+    font-family: 'Roboto', sans-serif;
+}
+.para
+{
+    width: 550px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    left: 70px;
+    top: 213px;   
+}
+
